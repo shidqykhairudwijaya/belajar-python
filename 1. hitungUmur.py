@@ -1,4 +1,4 @@
-tahunPengguna = int(input("Input tahun Lahir kamu:"))
+tahunPengguna = int(input("Input tahun Lahir kamu sayang ugh:"))
 tahunSekarang = 2025
 
 
