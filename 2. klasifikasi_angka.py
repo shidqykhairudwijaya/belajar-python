@@ -1,19 +1,15 @@
 angka = int(input("Masukan angka:"))
 
-if angka > 0:
-    if angka % 2 == 0:
-        print("Angka positif")
-        print("Angka genap")
-    else:
-        print("Angka positif")
-        print("Angka ganjil")
-elif angka < 0:
-    if angka % 2 == 0:
-        print("Angka negatif")
-        print("Angka genap")
-    else:
-        print("Angka negatif")
-        print("Angka ganjil")
+blangan = ""
+bilangan1 = ""
+if angka % 2 == 0:
+    bilangan = "genap"
 else:
-    print("Angka nol")
-    print("Nol tidak ganjil atau genap")
+    bilangan = "ganjil"
+
+if angka <= 0:
+    bilangan1 = "negatif"
+else:
+    bilangan1 = "positif"
+
+print(f"{angka} adalah bilangan {bilangan} dan {bilangan1}")

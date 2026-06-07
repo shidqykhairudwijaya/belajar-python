@@ -1,5 +1,5 @@
-tahunPengguna = int(input("Input tahun Lahir kamu sayang ugh:"))
-tahunSekarang = 2025
+tahunPengguna = int(input("Input tahun Lahir kamu ugh:"))
+tahunSekarang = 2026
 
 
 if tahunPengguna > tahunSekarang or tahunPengguna <= 0:
